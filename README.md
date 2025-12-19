@@ -1,9 +1,3 @@
-Tentu, Arief! Ini adalah rangkuman lengkap perjalanan kamu dari Tugas 1 (Excel) hingga Tugas Akhir (Analysis Report & Pitch Deck). File Markdown ini disusun secara kronologis untuk menunjukkan perkembangan skill kamu dari pengolahan data dasar hingga menjadi seorang Data Analyst yang mampu memberikan rekomendasi strategis.
-
-Kamu bisa menyalin ini sebagai isi utama file README.md di repositori GitHub kamu.
-
-Markdown
-
 # 🚀 Data Analytics Portfolio: End-to-End Journey
 
 Selamat datang di repositori portofolio saya. Proyek ini mendokumentasikan perjalanan belajar saya dalam menguasai siklus hidup data (_Data Analytics Lifecycle_), mulai dari pembersihan data mentah hingga penyajian strategi bisnis kepada pemangku kepentingan.
@@ -70,3 +64,4 @@ Sebagai penutup, saya menyusun laporan resmi dan materi presentasi untuk memberi
 
 _"Seluruh rangkaian proyek ini adalah bukti dedikasi saya dalam mengubah data mentah menjadi wawasan yang dapat ditindaklanjuti untuk mendorong pertumbuhan bisnis."_
 Tips Final:
+
