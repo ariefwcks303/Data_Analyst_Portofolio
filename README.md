@@ -63,5 +63,6 @@ Sebagai penutup, saya menyusun laporan resmi dan materi presentasi untuk memberi
 ---
 
 _"Seluruh rangkaian proyek ini adalah bukti dedikasi saya dalam mengubah data mentah menjadi wawasan yang dapat ditindaklanjuti untuk mendorong pertumbuhan bisnis."_
-Tips Final:
+
+
 
