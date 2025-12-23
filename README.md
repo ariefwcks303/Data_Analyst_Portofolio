@@ -1,68 +1,49 @@
-# 🚀 Data Analytics Portfolio: End-to-End Journey
+# 🚀 Data Analytics Portfolio: Driving Business Growth through Data
 
-Selamat datang di repositori portofolio saya. Proyek ini mendokumentasikan perjalanan belajar saya dalam menguasai siklus hidup data (_Data Analytics Lifecycle_), mulai dari pembersihan data mentah hingga penyajian strategi bisnis kepada pemangku kepentingan.
+Selamat datang di repositori portofolio saya. Di sini, saya mendokumentasikan transformasi data mentah menjadi keputusan strategis yang berdampak pada profitabilitas dan efisiensi operasional.
 
----
+## 📂 Highlight Proyek Utama
 
-## 📂 Daftar Proyek
+### 1. 📊 Optimasi Segmen Pelanggan (Excel)
+* **Fokus:** Data Cleaning & Behavioral Insight.
+* **Action:** Mengolah dataset mentah menggunakan Pivot Table & Advanced Formulas.
+* **Business Impact:** Mengidentifikasi profil "High-Spender" (Jewelry/Bandung), memberikan fondasi untuk penargetan iklan yang lebih efisien.
 
-### 1. 📊 Customer Behavior Analysis (Excel Based)
+### 2. 🗄️ Strategi Omnichannel via SQL (BigQuery)
+* **Fokus:** Complex Data Extraction & Channel Analysis.
+* **Action:** Segmentasi pelanggan berdasarkan *Purchase Intent* menggunakan SQL Join & Aggregation.
+* **Insight:** Menemukan pelanggan *Mixed-Channel* memiliki LTV (Lifetime Value) lebih tinggi, mendasari rekomendasi strategi integrasi Online-to-Offline.
 
-**Fokus:** _Data Cleaning & Basic Exploration_
-Pada tahap awal, saya menggunakan **Microsoft Excel** untuk mengolah dataset mentah pelanggan.
+### 3. 🐍 Otomatisasi & Integritas Data (Python)
+* **Fokus:** Programming Logic & Data Recovery.
+* **Action:** Membangun skrip Python untuk *Logis Imputation* (Kenaikan harga 2% yoy) dan sinkronisasi nama produk.
+* **Impact:** Mengotomatiskan proses validasi data yang memangkas waktu kerja manual dan memastikan akurasi data harga 100%.
 
-- **Pembersihan Data:** Menangani duplikat, mengisi _missing values_ dengan logika nol, dan standarisasi teks (_Proper Case_).
-- **Analisis:** Menggunakan _Pivot Table_ untuk mengidentifikasi kategori produk unggulan (_Jewelry & Accessories_) dan kota paling aktif (Bandung).
-- **Output:** Rekomendasi awal untuk penargetan audiens perempuan berpendapatan tinggi.
+### 4. 🖼️ Executive Dashboard: Risepedia (Looker Studio)
+* **Fokus:** Real-time Monitoring & Visualization.
+* **Feature:** Filter dinamis untuk memantau performa penjualan Rp 2,1 Miliar secara granular.
+* **Value:** Memungkinkan manajemen mengambil keputusan berbasis data dalam hitungan detik melalui pemetaan geografis performa wilayah.
 
-### 2. 🗄️ Advanced Data Retrieval (SQL/BigQuery)
+<img width="1085" height="814" alt="image" src="https://github.com/user-attachments/assets/2110ba68-a586-491d-82aa-52b46c7bdcd5" />
+  
+* - 🔗 **[Lihat Dashboard Interaktif Di Sini](https://lookerstudio.google.com/u/0/reporting/91c8055d-b7b5-42aa-b92f-b8b553db28f8/page/odNVF?s=re0Ns9K02QI)**
 
-**Fokus:** _Complex Data Extraction_
-Beralih dari Excel, saya menggunakan **SQL** untuk melakukan query pada dataset `supermarket_data.suryamart` guna menjawab pertanyaan bisnis yang lebih mendalam.
 
-- **Segmentasi:** Mengelompokkan pelanggan berdasarkan _Purchase Intent_ dan profil loyalitas.
-- **Analisis Kanal:** Membandingkan performa belanja antara kanal _Online, Offline,_ dan _Mixed_.
-- **Insight:** Menemukan bahwa pelanggan paling berharga (_High-Value_) seringkali menggunakan kombinasi kanal (_Mixed_).
-
-### 3. 🐍 Data Automation & Cleaning (Python/Jupyter Notebook)
-
-**Fokus:** _Programming Logic & Business Rules_
-Menggunakan **Python**, saya menangani ketidakkonsistenan data dengan logika bisnis yang lebih kompleks.
-
-- **Logic Imputation:** Membuat fungsi otomatis untuk mengisi harga produk berdasarkan aturan kenaikan harga tahunan sebesar 2%.
-- **Sinkronisasi Data:** Memulihkan data nama produk yang hilang dengan mencocokkan harga per unit dan tahun transaksi melalui skrip Python.
-- **Tools:** Pandas, NumPy, Matplotlib, Seaborn.
-
-### 4. 🖼️ Interactive Business Dashboard (Looker Studio)
-
-**Fokus:** _Data Visualization & Storytelling_
-Saya merancang dashboard interaktif **Risepedia E-Commerce** menggunakan **Google Looker Studio** untuk memberikan akses data _real-time_ kepada manajemen.
-
-- **Fitur:** Filter dinamis (Usia, Lokasi, Kanal) dan pemetaan geografis.
-- **Key Metric:** Visualisasi Total Penjualan sebesar Rp 2,1 Miliar dengan fokus performa tertinggi di wilayah **Makassar**.
-- 🔗 **[Lihat Dashboard Interaktif Di Sini](https://lookerstudio.google.com/u/0/reporting/91c8055d-b7b5-42aa-b92f-b8b553db28f8/page/odNVF?s=re0Ns9K02QI)**
-
-### 🏁 5. Final Mission: Analyst Report & Pitch Deck
-
-**Fokus:** _Business Communication & Strategic Recommendations_
-Sebagai penutup, saya menyusun laporan resmi dan materi presentasi untuk memberikan solusi atas masalah yang ditemukan.
-
-- **Analyst Report:** Menyoroti anomali program loyalitas di mana anggota program justru belanja lebih sedikit dibanding non-anggota.
-- **Pitch Deck:** Mengusulkan restrukturisasi program loyalitas, penguatan strategi _omnichannel_, dan fokus pemasaran geografis di Makassar, Jakarta, dan Bandung.
-- **Hasil:** Rencana aksi taktis bulanan untuk meningkatkan ROI dan loyalitas pelanggan.
+### 5. 🎯 Strategi Bisnis & Rekomendasi ROI (Final Mission)
+* **Fokus:** Business Communication & Strategic Pitch.
+* **Key Discovery:** Menemukan *anomali* program loyalitas (anggota belanja < non-anggota).
+* **Recommendation:** Mengusulkan restrukturisasi program loyalitas dan fokus penetrasi pasar di Makassar & Jakarta untuk memaksimalkan ROI pemasaran.
 
 ---
 
 ## 🛠️ Tech Stack & Skills
 
-- **Languages:** SQL, Python.
-- **Tools:** Microsoft Excel, Jupyter Notebook, Google Looker Studio, Google Slides.
-- **Libraries:** Pandas, NumPy, Seaborn, Matplotlib.
-- **Soft Skills:** Data Storytelling, Business Strategy, Critical Thinking.
+| Category | Tools / Skills |
+| :--- | :--- |
+| **Languages** | SQL (BigQuery), Python (Pandas, NumPy) |
+| **Visualization** | Google Looker Studio, Matplotlib, Seaborn |
+| **Office & Analytics** | Microsoft Excel (Pivot, VLOOKUP), Google Slides |
+| **Soft Skills** | Business Storytelling, ROI Analysis, Critical Thinking |
 
 ---
-
-_"Seluruh rangkaian proyek ini adalah bukti dedikasi saya dalam mengubah data mentah menjadi wawasan yang dapat ditindaklanjuti untuk mendorong pertumbuhan bisnis."_
-
-
-
+*"Saya tidak hanya mengolah angka; saya bercerita tentang bagaimana angka tersebut dapat memajukan bisnis Anda."*
